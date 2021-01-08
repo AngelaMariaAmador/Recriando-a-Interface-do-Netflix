@@ -1,3 +1,12 @@
-body{
-    background-color: blue;
+
+/*Reseta as configurações iniciais de margem, preenchimento e box do site*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;/* limita a expansão dos elementos à extensão do box*/
+
 }
+
+
+
+
