@@ -1,12 +1,46 @@
 
-/*Reseta as configurações iniciais de margem, preenchimento e box do site*/
+/*Cria variáveis que armazenam as cores padrão do site*/ 
+:root{
+
+    --vermelho: #f40612;
+    --preta: #141414;
+}
+
+/*Reseta toda a página eliminando eventuais formatações anteriormente existentes*/
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;/* limita a expansão dos elementos à extensão do box*/
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+Body{
+    background:var(--preta);
+    font-family:'Times New Roman', Times, serif;
+    color: write;
+
+}
+header.container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+
+
+
 
 }
 
+/*estiliza o campo logo da página*/
+header.logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    
+
+
+
+}
 
 
 
