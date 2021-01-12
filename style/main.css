@@ -30,7 +30,7 @@ header.container{
 }
 
 /*estiliza o campo logo da página*/
-header.logo{
+header .logo{
     color: var(--vermelho);
     font-family: 'Arial Black';
     
@@ -49,5 +49,5 @@ o mouse for passado sobre o mesmo*/
     color: #ffff;
 
  }
- 
+
 
