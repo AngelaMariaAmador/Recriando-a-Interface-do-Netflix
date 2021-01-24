@@ -60,9 +60,21 @@ o mouse for passado sobre o mesmo*/
         height: 400px;
         background-size: cover;
 
+        display:flex;/* vai posicionar os elementos mais abaixo e ao centro da página*/
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start ;
+    }
+    .filme-principal .descricao{
+
+        margin-bottom: 40px;/*distancia os botões e a descrição*/
 
     }
-    /*teste de Commit2*/
+
+    .titulo{
+
+        font-size: 30px;
+    }
     
 
 
