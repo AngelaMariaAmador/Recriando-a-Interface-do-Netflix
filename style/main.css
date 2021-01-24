@@ -86,5 +86,14 @@ o mouse for passado sobre o mesmo*/
         padding: 15px 30px;/*distância da margem dos botões*/
         margin-right: 15px;/*distancia entre os botões*/
         font-size: 12px;
+
+        cursor: pointer;
+        transition: .3s ease all;
+    }
+
+    .botao:hover{
+        background-color: white;
+        color: black;
+
     }
  
