@@ -55,32 +55,34 @@ o mouse for passado sobre o mesmo*/
 
  /*filme principal*/
     .filme-principal{
+    
         font-size: 16px;
         background: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0, .50)100%), url('/img/imgPlanoFundo.png');
         height: 400px;
         background-size: cover;
-
+        
         display:flex;/* vai posicionar os elementos mais abaixo e ao centro da página*/
         flex-direction: column;
         justify-content: center;
         align-items: flex-start ;
     }
     .filme-principal .descricao{
-
+        margin-top: 10px;
         margin-bottom: 40px;/*distancia os botões e a descrição*/
 
     }
 
     .titulo{
-
+        margin-top: 25%;/*distacia do título para margem superior*/
         font-size: 30px;
+        font-family: 'Trebuchet MS', Arial, sans-serif;
     }
 
     .botao{
 
         background-color: rgba(0,0,0,.50);
         border: none;
-        color: white;
+        color: rgb(255, 255, 255);
         padding: 15px 30px;/*distância da margem dos botões*/
         margin-right: 15px;/*distancia entre os botões*/
         font-size: 12px;
