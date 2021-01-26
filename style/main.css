@@ -100,3 +100,14 @@ o mouse for passado sobre o mesmo*/
     .botao i{
         margin-right: 8px;
     }
+
+    .container{
+
+        margin-left: 20px;
+    }
+
+    .filme-principal.container{
+
+        width: 70%;/*não permite que o texto atravesse a tela*/
+
+    }
